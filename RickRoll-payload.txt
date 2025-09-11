@@ -1,0 +1,25 @@
+REM objective RickRoll and parrot
+REM Author Kiersten
+REM open youtube
+DELAY 3000
+WINDOWS r
+DELAY 100
+STRING https://www.youtube.com/watch?v=hB7CDrVnNCs
+ENTER
+REM put it into full screen mode
+DELAY 1000
+F11
+F
+REM open cmd
+DELAY 20000
+WINDOWS r
+DELAY 100
+STRING cmd
+ENTER
+REM play party parrot
+DELAY 300
+STRING curl parrot.live
+ENTER
+REM close party parrot
+DELAY 20000
+ALT F4
